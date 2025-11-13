@@ -1,0 +1,14 @@
+server:
+  port:
+    8086
+
+debug:
+  false
+
+spring:
+  application:
+    name: springboot3
+
+
+hello:
+  name: "Hello Source World!"
