@@ -4,7 +4,7 @@ package com.xcodemap.netty.quickstart;
  * Netty客户端启动类
  */
 public class ClientMain {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         int port = 8080;
         String host = "localhost";
         NettyClient client = null;
