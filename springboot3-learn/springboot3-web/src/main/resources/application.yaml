@@ -1,6 +1,10 @@
 server:
   port:
     8086
+  tomcat:
+    threads:
+      max: 2        # 最大工作线程数
+      min-spare: 2  # 最小空闲线程数（必须 <= max）
 
 debug:
   false
